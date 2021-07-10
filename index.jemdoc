@@ -39,6 +39,12 @@ My research interests include
 
 #[research.html Find out more].
 == Publications 
+~~~
+{}{img_left}{photos/textflint.png}{alt text}{60}{60}
+*TextFlint: Unified Multilingual Robustness Evaluation Toolkit for Natural Language Processing*\n
+\[[https://arxiv.org/pdf/2103.11441.pdf Arxiv version]\], \[[aclpage ACL demo version]\], \[[https://www.textflint.io/textflint TextFlint platform]\], \[[https://github.com/textflint/textflint Github]\]
+~~~
+
 *2021*
 - *ONE2SET: Generating Diverse Keyphrases as a Set*\n
 Jiacheng Ye, *Tao Gui*\*, Yichao Luo, Yige Xu, and Qi Zhang. （\* Corresponding author）\n
