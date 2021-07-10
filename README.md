@@ -1,1 +1,1 @@
-My homepage is [guitaowufeng.github.io guitaowufeng.github.io]
+My homepage is [guitaowufeng.github.io](guitaowufeng.github.io)
