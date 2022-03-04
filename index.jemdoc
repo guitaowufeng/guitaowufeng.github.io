@@ -3,7 +3,7 @@
 == {{<span style="color:black;font-size:24pt;font-family:Songti SC">}}*Tao Gui (桂 韬)*{{</span>}}\n
 
 ~~~
-{}{img_left}{photos/bio.jpg}{alt text}{230}{230}
+{}{img_left}{photos/bio.jpg}{alt text}{200}{270}
 \n
 Pre-tenured Associate Professor\n 
 [https://imoll.fudan.edu.cn Institute of Modern Languages and Linguistics]\n
@@ -28,7 +28,7 @@ Dr. Gui is a pre-tenured associate professor in Institute of Modern Languages an
 
 == Annoucement
 
-I am currently looking for some self-motivated students to work with me (No PhD position before 2022). Besides, we have postdoc positions in Fudan NLP group. If you are interested in my research topics, please drop me an email with your CV. 
+I am currently looking for some self-motivated students to work with me. Besides, we have postdoc positions in Fudan NLP group. If you are interested in my research topics, please drop me an email with your CV. 
 
 == Research
 My research interests include 
@@ -45,6 +45,24 @@ My research interests include
 \[[https://arxiv.org/pdf/2103.11441.pdf Arxiv version]\], \[[aclpage ACL demo version]\], \[[https://www.textflint.io/textflint TextFlint platform]\], \[[https://github.com/textflint/textflint Github]\]
 ~~~
 
+*2022*
+- *Flooding-X: Improving BERT's Resistance to Adversarial Attacks via Loss-Restricted Fine-Tuning*\n
+Qin Liu, Rui Zheng, Bao Rong, Jingyi Liu, ZhiHua Liu, Zhanzhan Cheng, Liang Qiao, *Tao Gui*, Qi Zhang, Xuanjing Huang \n
+ACL 2022.  \n
+- *Robust Lottery Tickets for Pre-trained Language Models*\n
+Rui Zheng, Rong Bao, Yuhao Zhou, Di Liang, Sirui Wang, Wei Wu, *Tao Gui*, Qi Zhang, Xuanjing Huang \n
+ACL 2022.  \n
+- *MINER: Improving Out-of-Vocabulary Named Entity Recognition from an Information Theoretic Perspective*\n
+Xiao Wang, Shihan Dou, Limao Xiong, Yicheng Zou, Qi Zhang, *Tao Gui*, Liang Qiao, Zhanzhan Cheng, Xuanjing Huang \n
+ACL 2022.  \n
+- *Divide and Conquer: Text Semantic Matching with Disentangled Keywords and Intents*\n
+Yicheng Zou, Hongwei Liu, *Tao Gui*, Junzhe Wang, Qi Zhang, Meng Tang, Haixiang Li, daniell wang \n
+ACL 2022.  \n
+- *CQG: A Simple and Effective Controlled Generation Framework for Multi-hop Question Generation*\n
+Zichu Fei, Qi Zhang, *Tao Gui*, Di Liang, Sirui Wang, Wei Wu, Xuanjing Huang \n
+ACL 2022.  \n
+
+
 *2021*
 - *ONE2SET: Generating Diverse Keyphrases as a Set*\n
 Jiacheng Ye, *Tao Gui*\*, Yichao Luo, Yige Xu, and Qi Zhang. （\* Corresponding author）\n
@@ -57,13 +75,13 @@ Hang Yan, *Tao Gui*, Junqi Dai, Qipeng Guo, Zheng Zhang and Xipeng Qiu. \n
 ACL 2021. \[[https://arxiv.org/abs/2106.01223 pdf]\] \[[https://github.com/yhcc/BARTNER code]\] \n
 - *Low-Resource Dialogue Summarization with Domain-Agnostic Multi-Source Pretraining*\n
 Yicheng Zou, Bolin Zhu, Xingwu Hu, *Tao Gui*\* and Qi Zhang. （\* Corresponding author）\n
-EMNLP 2021. 
+EMNLP 2021. \[[https://aclanthology.org/2021.emnlp-main.7.pdf pdf]\] \n
 - *Heterogeneous Graph Neural Networks for Keyphrase Generation*\n
 Jiacheng Ye, Ruijian Cai, *Tao Gui*\* and Qi Zhang. （\* Corresponding author）\n
-EMNLP 2021. 
+EMNLP 2021. \[[https://aclanthology.org/2021.emnlp-main.213.pdf pdf]\] \n
 - *A Relation-Oriented Clustering Method for Open Relation Extraction*\n
 Jun Zhao, *Tao Gui*\*, Qi Zhang and Yaqian Zhou.（\* Corresponding author）\n
-EMNLP 2021. \n
+EMNLP 2021. \[[https://aclanthology.org/2021.emnlp-main.765.pdf pdf]\] \n
 
 *2020*
 - *Constructing Multiple Tasks for Augmentation: Improving Neural Image Classiﬁcation with K-means Features* \n
@@ -153,12 +171,18 @@ EMNLP 2017. \[[https://aclanthology.org/D17-1256.pdf pdf]\] \[[https://github.co
 -- Transactions on Intelligent Systems and Technology (TIST)
 
 == Honors & Awards
+- 2022 Scholar of Young Talent Promoting Project of CAST
+- 2021 Outstanding Doctoral Dissertation Award of CIPS
+- 2021 outstanding graduates of Shanghai. Here is promotional [https://mp.weixin.qq.com/s/5QasJgc_zi1LhbFLSG7WPg VIDEO].
+- 2021 Grand Prize of Academic Star, which was awarded to 5 students in Fudan. Here is [https://guitaowufeng.github.io/photos/Interview.pdf INTERVIEW].
+- 2019, 2020 National Scholarship.
+- 2020 IBM Scholarship, which was awarded to 10 PhD students in China.
 - 2019 Baidu Scholarship(200,000 RMB), which was awarded to 10 Chinese students around the world. Here is promotional [https://www.bilibili.com/video/av82543698/ VIDEO].
 - 2019 Fudan Outstanding Student Pacesetter, which is award to 10 students around the university.
-- 2020 IBM Scholarship, which was awarded to 10 PhD students in China.
-- 2019, 2020 National Scholarship.
-- 2021 Grand Prize of Academic Star, which was awarded to 5 students in Fudan. Here is [https://guitaowufeng.github.io/photos/Interview.pdf INTERVIEW].
-- 2021 outstanding graduates of Shanghai. Here is promotional [https://mp.weixin.qq.com/s/5QasJgc_zi1LhbFLSG7WPg VIDEO].
+
+
+
+
 
 == Visitors
 ~~~
