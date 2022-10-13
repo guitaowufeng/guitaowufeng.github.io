@@ -1,4 +1,4 @@
-# jemdoc: nofooter 
+# jemdoc:menu{MENU}{index.html}, nofooter 
 \n
 == {{<span style="color:black;font-size:24pt;font-family:Songti SC">}}*Tao Gui (桂 韬)*{{</span>}}\n
 
@@ -26,26 +26,49 @@ Dr. Gui is a pre-tenured associate professor in Institute of Modern Languages an
 #His research focuses on natural language processing, machine learning, with special emphasis on multi-modality information understanding and generation cross vision and language, argumentation mining and some cross-disciplinary topics. He has published more than 60 papers on top-tier conferences in related research fields, including ACL, EMNLP, ICML, ICLR, IJCAI, AAAI and so on. 
 
 
-== Annoucement
+#== Annoucement
 
-I am currently looking for some self-motivated students to work with me. Besides, we have postdoc positions in Fudan NLP group. If you are interested in my research topics, please drop me an email with your CV. 
+#I am currently looking for some self-motivated students to work with me. Besides, we have postdoc positions in Fudan NLP group. If you are interested in my research topics, please drop me an email with your CV. 
 
 == Research
 My research interests include 
 - Natural Language Processing
 - Information Extraction
-- Robust Model
-- Model Interpretability
+- Trustworthy Model (Robustness--Interpretability--Fairness--Privacy)
 
 #[research.html Find out more].
-== Publications 
+
+== Selected Publications 
 ~~~
 {}{img_left}{photos/textflint.png}{alt text}{60}{60}
 *TextFlint: Unified Multilingual Robustness Evaluation Toolkit for Natural Language Processing*\n
 \[[https://arxiv.org/pdf/2103.11441.pdf Arxiv version]\], \[[aclpage ACL demo version]\], \[[https://www.textflint.io/textflint TextFlint platform]\], \[[https://github.com/textflint/textflint Github]\]
 ~~~
 
-*2022*
+- *RE-Matching: A Fine-Grained Semantic Matching Method for Zero-Shot Relation Extraction*\n
+Jun Zhao, WenYu Zhan, *Tao Gui*, Qi Zhang, Jin Ma and Ying Shan \n
+EMNLP 2022 Findings. \n
+
+- *TextFusion: Privacy-Preserving Pre-trained Model Inference via Token Fusion*\n
+Xin Zhou, Jinzhu Lu, *Tao Gui*, Ruotian Ma, Zichu Fei, Yuran Wang, Yong Ding, Yibo Cheung, Qi Zhang and Xuanjing Huang \n
+EMNLP 2022. \n
+
+- *Efficient Adversarial Training with Robust Early-Bird Tickets*\n
+zhiheng xi, rui zheng, *Tao Gui*, Qi Zhang and Xuanjing Huang \n
+EMNLP 2022. \n
+
+- *Cross-Linguistic Syntactic Difference in Multilingual BERT: How Good is It and How Does It Affect Transfer?*\n
+Ningyu Xu, *Tao Gui*, Ruotian Ma, Qi Zhang, Jingting Ye, Menghan Zhang and Xuanjing Huang \n
+EMNLP 2022. \n
+
+- *Making Parameter-efficient Tuning More Efficient: A Unified Framework for Classification Tasks*\n
+Xin Zhou, Ruotian Ma, Yicheng Zou, Xuanting Chen, *Tao Gui*, Qi Zhang, Xuanjing Huang, Rui Xie and Wei Wu \n
+COLING 2022. \n
+
+- *Template-free Prompt Tuning for Few-shot NER*\n
+Ruotian Ma, Xin Zhou, *Tao Gui*, Yiding Tan, Linyang Li, Qi Zhang, Xuanjing Huang \n
+NAACL 2022. \n
+
 - *Searching for Optimal Subword Tokenization in Cross-domain NER*\n
 Ruotian Ma, Yiding Tan, Xin Zhou, Xuanting Chen, *Tao Gui*, Di Liang, Sirui Wang, Wei Wu \n
 IJCAI 2022, {{<span style="color:red">}}/Top 3.75\%/{{</span>}}. \n
@@ -55,134 +78,18 @@ ACL 2022.  \n
 - *Robust Lottery Tickets for Pre-trained Language Models*\n
 Rui Zheng, Rong Bao, Yuhao Zhou, Di Liang, Sirui Wang, Wei Wu, *Tao Gui*, Qi Zhang, Xuanjing Huang \n
 ACL 2022.  \n
-- *MINER: Improving Out-of-Vocabulary Named Entity Recognition from an Information Theoretic Perspective*\n
-Xiao Wang, Shihan Dou, Limao Xiong, Yicheng Zou, Qi Zhang, *Tao Gui*, Liang Qiao, Zhanzhan Cheng, Xuanjing Huang \n
-ACL 2022.  \n
-- *Divide and Conquer: Text Semantic Matching with Disentangled Keywords and Intents*\n
-Yicheng Zou, Hongwei Liu, *Tao Gui*, Junzhe Wang, Qi Zhang, Meng Tang, Haixiang Li, daniell wang \n
-ACL 2022.  \n
-- *CQG: A Simple and Effective Controlled Generation Framework for Multi-hop Question Generation*\n
-Zichu Fei, Qi Zhang, *Tao Gui*, Di Liang, Sirui Wang, Wei Wu, Xuanjing Huang \n
-ACL 2022.  \n
 
-
-*2021*
 - *ONE2SET: Generating Diverse Keyphrases as a Set*\n
 Jiacheng Ye, *Tao Gui*\*, Yichao Luo, Yige Xu, and Qi Zhang. （\* Corresponding author）\n
 ACL 2021. \[[https://arxiv.org/abs/2105.11134 pdf]\] \[[https://github.com/jiacheng-ye/kg_one2set code]\] 
+
 - *SENT: Sentence-level Distant Relation Extraction via Negative Training*\n
 Ruotian Ma, *Tao Gui*\*, Linyang Li, Qi Zhang, Xuanjing Huang and Yaqian Zhou. （\* Corresponding author）\n
 ACL 2021. \[[https://arxiv.org/abs/2106.11566?context=cs pdf]\] \[[https://github.com/rtmaww/SENT code]\] 
+
 - *A Unified Generative Framework for Various NER Tasks*\n
 Hang Yan, *Tao Gui*, Junqi Dai, Qipeng Guo, Zheng Zhang and Xipeng Qiu. \n 
 ACL 2021. \[[https://arxiv.org/abs/2106.01223 pdf]\] \[[https://github.com/yhcc/BARTNER code]\] \n
-- *Low-Resource Dialogue Summarization with Domain-Agnostic Multi-Source Pretraining*\n
-Yicheng Zou, Bolin Zhu, Xingwu Hu, *Tao Gui*\* and Qi Zhang. （\* Corresponding author）\n
-EMNLP 2021. \[[https://aclanthology.org/2021.emnlp-main.7.pdf pdf]\] \n
-- *Heterogeneous Graph Neural Networks for Keyphrase Generation*\n
-Jiacheng Ye, Ruijian Cai, *Tao Gui*\* and Qi Zhang. （\* Corresponding author）\n
-EMNLP 2021. \[[https://aclanthology.org/2021.emnlp-main.213.pdf pdf]\] \n
-- *A Relation-Oriented Clustering Method for Open Relation Extraction*\n
-Jun Zhao, *Tao Gui*\*, Qi Zhang and Yaqian Zhou.（\* Corresponding author）\n
-EMNLP 2021. \[[https://aclanthology.org/2021.emnlp-main.765.pdf pdf]\] \n
-
-*2020*
-- *Constructing Multiple Tasks for Augmentation: Improving Neural Image Classiﬁcation with K-means Features* \n
-*Tao Gui*, Lizhi Qing, Qi Zhang, Jiacheng Ye, Hang Yan, Zichu Fei and Xuanjing Huang.\n
-AAAI 2020. \[[https://arxiv.org/abs/1911.07518 pdf]\] \[[https://github.com/Howardqlz/Meta-MTL code]\] \n
-
-- *Leveraging Document-Level Label Consistency for Named Entity Recognition* \n
-*Tao Gui*, Jiacheng Ye, Qi Zhang, Yaqian Zhou, Yeyun Gong, Xuanjing Huang. \n
-IJCAI 2020. \[[https://www.ijcai.org/proceedings/2020/0550.pdf pdf]\] \[[https://github.com/jiacheng-ye/DocL-NER code]\] \n
-
-- *Uncertainty-Aware Label Refinement for Sequence Labeling* \n
-*Tao Gui*, Jiacheng Ye, Qi Zhang, Zhengyan Li, Zichu Fei, Yeyun Gong and Xuanjing Huang. \n
-EMNLP 2020. \[[https://aclanthology.org/2020.emnlp-main.181.pdf pdf]\] \[[https://github.com/jiacheng-ye/UANet code]\] \n
-
-*2019*
-- *Cooperative Multimodal Approach to Depression Detection in Twitter* \n
-*Tao Gui*, Liang Zhu, Qi Zhang, Minlong Peng, Xu Zhou, Keyu Ding, Zhigang Chen.\n
-AAAI-19. \[[https://ojs.aaai.org//index.php/AAAI/article/view/3775 pdf]\] \[[http://qizhang.info/paper/code/DepressionMultiModal.zip code]\] \[[https://drive.google.com/open?id=11ye00sHFY5re2NOBRKreg-tVbDNrc7Xd data]\] \n
-
-- *Long Short-Term Memory with Dynamic Skip Connections*\n
-*Tao Gui*, Qi Zhang, Lujun Zhao, Yaosong Lin, Minlong Peng, Jingjing Gong, Xuanjing Huang. \n
-AAAI-19. \[[https://arxiv.org/pdf/1811.03873.pdf pdf]\] \[[https://github.com/guitaowufeng/DynamicLSTM code]\]
-
-- *Mention Recommendation in Twitter with Cooperative Multi-Agent Reinforcement Learning*\n
-*Tao Gui*, Peng Liu, Qi Zhang, Liang Zhu, Minlong Peng, Yunhua Zhou and Xuanjing Huang. \n
-SIGIR 2019. \[[https://dl.acm.org/doi/10.1145/3331184.3331237 pdf]\] \[[https://github.com/mritma/CROMA code]\]\n
-
-- *CNN-Based Chinese NER with Lexicon Rethinking* \n
-*Tao Gui*, Ruotian Ma, Qi Zhang, Lujun Zhao, Yu-Gang Jiang, Xuanjing Huang.\n
-IJCAI 2019. \[[https://www.ijcai.org/proceedings/2019/0692.pdf pdf]\] \[[https://github.com/rtmaww/LR-CNN code]\]\n
-
-- *A Lexicon-Based Graph Neural Network for Chinese NER* \n
-*Tao Gui*, Yicheng Zou, Qi Zhang, Minlong Peng, Jinlan Fu, Zhongyu Wei and Xuanjing Huang.\n
-EMNLP 2019. \[[https://aclanthology.org/D19-1096.pdf pdf]\] \[[https://github.com/RowitZou/LGN code]\] \n
-
-- *Trainable Undersampling for Class-Imbalance Learning*\n
-Minlong Peng, Qi Zhang, Xiaoyu Xing, *Tao Gui*, Xuanjing Huang, Yu-Gang Jiang, Keyu Ding, Zhigang Chen.\n
-AAAI-19. \[[https://ojs.aaai.org/index.php/AAAI/article/view/4396 pdf]\] \n
-
-- *Adaptive Multi-Attention Network Incorporating Answer Information for Duplicate Question Detection* \n
-Di Liang, Fubao Zhang, Weidong Zhang, Qi Zhang, Jinlan Fu, Minlong Peng, *Tao Gui* and Xuanjing Huang.\n
-SIGIR 2019. \[[https://dl.acm.org/doi/10.1145/3331184.3331228 pdf]\]\n
-
-- *Learning Task-Specific Representation for Novel Words in Sequence Labeling*\n
-Minlong Peng, Qi Zhang, Xiaoyu Xing, *Tao Gui*, Jinlan Fu, Xuanjing Huang. \n
-IJCAI 2019. \[[https://www.ijcai.org/proceedings/2019/0715.pdf pdf]\]\n
-
-- *Switch-LSTMs for Multi-Criteria Chinese Word Segmentation*\n
-Jingjing Gong, Xinchi Chen, *Tao Gui*, Xipeng Qiu.\n
-AAAI-19. \[[https://arxiv.org/pdf/1812.08033.pdf pdf]\]\n
-
-*2018*
-- *Transferring from Formal Newswire Domain with Hypernet for Twitter POS Tagging*\n
-*Tao Gui*, Qi Zhang, Jingjing Gong, Minlong Peng, Di Liang, Keyu Ding and Xuanjing Huang.\n
-EMNLP 2018. \[[https://aclanthology.org/D18-1275.pdf pdf]\] \[[https://github.com/guitaowufeng/DCNN-for-Twitter-POS-tagging code]\]\n
-
-- *A Lexicon-Based Supervised Attention Model for Neural Sentiment Analysis*\n
-Yicheng Zou, *Tao Gui*, Qi Zhang, Xuanjing Huang\n 
-COLING 2018, {{<span style="color:red">}}*/Area Chair Favorite Award/*{{</span>}}. \[[https://aclanthology.org/C18-1074.pdf pdf]\] \n
-
-*2017*
-- *Part-of-Speech Tagging for Twitter with Adversarial Neural Networks* \n
-*Tao Gui*, Qi Zhang, Haoran Huang, Minlong Peng, Xuanjing Huang.\n
-EMNLP 2017. \[[https://aclanthology.org/D17-1256.pdf pdf]\] \[[https://github.com/guitaowufeng/TPANN code]\]\n
-
-== Talks
-- Small Target with Perseverance, The Nineteenth China National Conference on Computational Linguistics, CCL 2020. \[[https://guitaowufeng.github.io/photos/small%20target%20and%20perseverance.pdf pdf]\]
-- Unified Multilingual Robustness Evaluation Toolkit for Natural Language Processing, YSSNLP 2021. \[[https://guitaowufeng.github.io/photos/YSSNLP.pdf pdf]\]
-- Uncertainty-Aware Sequence Labeling, AI 未来说·青年学术论坛. \[[https://guitaowufeng.github.io/photos/Uncertainty.pdf pdf]\] \[[http://baijiahao.baidu.com/s?id=1670797744340642890 text]\]
-- 当NLP邂逅Social Media--构建计算机与网络语言的桥梁, AI 未来说·青年学术论坛. \[[https://guitaowufeng.github.io/photos/NLPSMA.pdf pdf]\] \[[http://baijiahao.baidu.com/s?id=1656219323543061842 text]\]
-
-
-== Academic Experience
-
-#- Conference Service:
-
-
-- *Programme Committee Member:* \n
--- 2021: AAAI, IJCAI, ACL, EMNLP, CIKM \n
--- 2020: AAAI, IJCAI, ACL, EMNLP, COLING, CIKM \n
--- 2019: AAAI, IJCAI, ACL, EMNLP, NLPCC, CCL \n
--- 2018: ACL, EMNLP, COLING, NAACL \n
-
-- *Journal Referee:* \n
--- IEEE Transactions on Pattern Analysis and Machine Intelligence (TPAMI)
--- Transactions on Audio, Speech and Language Processing (TASLP)
--- Transactions on Intelligent Systems and Technology (TIST)
-
-== Honors & Awards
-- 2022 Scholar of Young Talent Promoting Project of CAST
-- 2021 Outstanding Doctoral Dissertation Award of CIPS
-- 2021 outstanding graduates of Shanghai. Here is promotional [https://mp.weixin.qq.com/s/5QasJgc_zi1LhbFLSG7WPg VIDEO].
-- 2021 Grand Prize of Academic Star, which was awarded to 5 students in Fudan. Here is [https://guitaowufeng.github.io/photos/Interview.pdf INTERVIEW].
-- 2019, 2020 National Scholarship.
-- 2020 IBM Scholarship, which was awarded to 10 PhD students in China.
-- 2019 Baidu Scholarship(200,000 RMB), which was awarded to 10 Chinese students around the world. Here is promotional [https://www.bilibili.com/video/av82543698/ VIDEO].
-- 2019 Fudan Outstanding Student Pacesetter, which is award to 10 students around the university.
-
 
 
 
