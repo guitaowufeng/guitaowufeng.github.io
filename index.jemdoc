@@ -33,12 +33,17 @@ Dr. Gui is a pre-tenured associate professor in Institute of Modern Languages an
 == Research
 My research interests include 
 - Natural Language Processing
-- Information Extraction
-- Trustworthy Model (Robustness--Interpretability--Fairness--Privacy)
+- Large Language Models
+- LLM Powered Learning
 
 #[research.html Find out more].
 
 == Selected Publications 
+~~~
+{}{img_left}{photos/MossRLHF.jpg}{alt text}{60}{60}
+*Secrets of RLHF in Large Language Models Part I: PPO*\n
+\[[https://arxiv.org/abs/2307.04964 Arxiv version]\], \[[https://github.com/OpenLMLab/MOSS-RLHF Github]\]
+~~~
 ~~~
 {}{img_left}{photos/textflint.png}{alt text}{60}{60}
 *TextFlint: Unified Multilingual Robustness Evaluation Toolkit for Natural Language Processing*\n
