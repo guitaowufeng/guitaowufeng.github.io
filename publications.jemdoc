@@ -1,0 +1,169 @@
+# jemdoc:menu{MENU}{publications.html}, nofooter 
+\n
+== publications\n
+here is a full list of my publications:
+
+== Journals
+- *Uncertainty-Aware Sequence Labeling*\n
+*Tao Gui*, Jiacheng Ye, Xiang Zhou, Xiaoqing Zheng and Qi Zhang \n
+IEEE/ACM Transactions on Audio, Speech, and Language Processing, 2021. \n
+
+== Conferences
+~~~
+{}{img_left}{photos/textflint.png}{alt text}{60}{60}
+*TextFlint: Unified Multilingual Robustness Evaluation Toolkit for Natural Language Processing*\n
+\[[https://arxiv.org/pdf/2103.11441.pdf Arxiv version]\], \[[aclpage ACL demo version]\], \[[https://www.textflint.io/textflint TextFlint platform]\], \[[https://github.com/textflint/textflint Github]\]
+~~~
+
+*2022*
+- *ProofInfer: Generating Proof via Iterative Hierarchical Inference*\n
+Zichu Fei, Qi Zhang, Xin Zhou, *Tao Gui* and Xuanjing Huang \n
+EMNLP 2022. \n
+
+- *RE-Matching: A Fine-Grained Semantic Matching Method for Zero-Shot Relation Extraction*\n
+Jun Zhao, WenYu Zhan, *Tao Gui*, Qi Zhang, Jin Ma and Ying Shan \n
+EMNLP 2022 Findings. \n
+
+- *TextFusion: Privacy-Preserving Pre-trained Model Inference via Token Fusion*\n
+Xin Zhou, Jinzhu Lu, *Tao Gui*, Ruotian Ma, Zichu Fei, Yuran Wang, Yong Ding, Yibo Cheung, Qi Zhang and Xuanjing Huang \n
+EMNLP 2022. \n
+
+- *Efficient Adversarial Training with Robust Early-Bird Tickets*\n
+zhiheng xi, rui zheng, *Tao Gui*, Qi Zhang and Xuanjing Huang \n
+EMNLP 2022. \n
+
+- *Cross-Linguistic Syntactic Difference in Multilingual BERT: How Good is It and How Does It Affect Transfer?*\n
+Ningyu Xu, *Tao Gui*, Ruotian Ma, Qi Zhang, Jingting Ye, Menghan Zhang and Xuanjing Huang \n
+EMNLP 2022. \n
+
+- *Making Parameter-efficient Tuning More Efficient: A Unified Framework for Classification Tasks*\n
+Xin Zhou, Ruotian Ma, Yicheng Zou, Xuanting Chen, *Tao Gui*, Qi Zhang, Xuanjing Huang, Rui Xie and Wei Wu \n
+COLING 2022. \n
+
+- *Less Is Better: Recovering Intended-Feature Subspace to Robustify NLU Models*\n
+Ting Wu and *Tao Gui* \n
+COLING 2022. \n
+
+- *PlugAT: A Plug and Play Module to Defend against Textual Adversarial Attack*\n
+Rui Zheng, Rong Bao, Qin Liu, *Tao Gui*, Qi Zhang, Xuanjing Huang, Rui Xie and Wei Wu \n
+COLING 2022. \n
+
+- *LFKQG: A Controlled Generation Framework with Local Fine-tuning for Question Generation over Knowledge Bases*\n
+Zichu Fei, Xin Zhou, *Tao Gui*, Qi Zhang and Xuanjing Huang \n
+COLING 2022. \n
+
+- *Read Extensively, Focus Smartly: A Cross-document Semantic Enhancement Method for Visual Documents NER*\n
+Jun Zhao, Xin Zhao, WenYu Zhan, *Tao Gui*, Qi Zhang, Liang Qiao, Zhanzhan Cheng and Shiliang Pu \n
+COLING 2022. \n
+
+- *Causal Intervention Improves Implicit Sentiment Analysis*\n
+Siyin Wang, Jie Zhou, Changzhi Sun, Junjie Ye, *Tao Gui*, Qi Zhang and Xuanjing Huang \n
+COLING 2022. \n
+
+- *Template-free Prompt Tuning for Few-shot NER*\n
+Ruotian Ma, Xin Zhou, *Tao Gui*, Yiding Tan, Linyang Li, Qi Zhang, Xuanjing Huang \n
+NAACL 2022. \n
+
+- *Searching for Optimal Subword Tokenization in Cross-domain NER*\n
+Ruotian Ma, Yiding Tan, Xin Zhou, Xuanting Chen, *Tao Gui*, Di Liang, Sirui Wang, Wei Wu \n
+IJCAI 2022, {{<span style="color:red">}}/Top 3.75\%/{{</span>}}. \n
+- *Flooding-X: Improving BERT's Resistance to Adversarial Attacks via Loss-Restricted Fine-Tuning*\n
+Qin Liu, Rui Zheng, Bao Rong, Jingyi Liu, ZhiHua Liu, Zhanzhan Cheng, Liang Qiao, *Tao Gui*, Qi Zhang, Xuanjing Huang \n
+ACL 2022.  \n
+- *Robust Lottery Tickets for Pre-trained Language Models*\n
+Rui Zheng, Rong Bao, Yuhao Zhou, Di Liang, Sirui Wang, Wei Wu, *Tao Gui*, Qi Zhang, Xuanjing Huang \n
+ACL 2022.  \n
+- *MINER: Improving Out-of-Vocabulary Named Entity Recognition from an Information Theoretic Perspective*\n
+Xiao Wang, Shihan Dou, Limao Xiong, Yicheng Zou, Qi Zhang, *Tao Gui*, Liang Qiao, Zhanzhan Cheng, Xuanjing Huang \n
+ACL 2022.  \n
+- *Divide and Conquer: Text Semantic Matching with Disentangled Keywords and Intents*\n
+Yicheng Zou, Hongwei Liu, *Tao Gui*, Junzhe Wang, Qi Zhang, Meng Tang, Haixiang Li, daniell wang \n
+ACL 2022.  \n
+- *CQG: A Simple and Effective Controlled Generation Framework for Multi-hop Question Generation*\n
+Zichu Fei, Qi Zhang, *Tao Gui*, Di Liang, Sirui Wang, Wei Wu, Xuanjing Huang \n
+ACL 2022.  \n
+
+
+*2021*
+- *ONE2SET: Generating Diverse Keyphrases as a Set*\n
+Jiacheng Ye, *Tao Gui*\*, Yichao Luo, Yige Xu, and Qi Zhang. （\* Corresponding author）\n
+ACL 2021. \[[https://arxiv.org/abs/2105.11134 pdf]\] \[[https://github.com/jiacheng-ye/kg_one2set code]\] 
+- *SENT: Sentence-level Distant Relation Extraction via Negative Training*\n
+Ruotian Ma, *Tao Gui*\*, Linyang Li, Qi Zhang, Xuanjing Huang and Yaqian Zhou. （\* Corresponding author）\n
+ACL 2021. \[[https://arxiv.org/abs/2106.11566?context=cs pdf]\] \[[https://github.com/rtmaww/SENT code]\] 
+- *A Unified Generative Framework for Various NER Tasks*\n
+Hang Yan, *Tao Gui*, Junqi Dai, Qipeng Guo, Zheng Zhang and Xipeng Qiu. \n 
+ACL 2021. \[[https://arxiv.org/abs/2106.01223 pdf]\] \[[https://github.com/yhcc/BARTNER code]\] \n
+- *Low-Resource Dialogue Summarization with Domain-Agnostic Multi-Source Pretraining*\n
+Yicheng Zou, Bolin Zhu, Xingwu Hu, *Tao Gui*\* and Qi Zhang. （\* Corresponding author）\n
+EMNLP 2021. \[[https://aclanthology.org/2021.emnlp-main.7.pdf pdf]\] \n
+- *Heterogeneous Graph Neural Networks for Keyphrase Generation*\n
+Jiacheng Ye, Ruijian Cai, *Tao Gui*\* and Qi Zhang. （\* Corresponding author）\n
+EMNLP 2021. \[[https://aclanthology.org/2021.emnlp-main.213.pdf pdf]\] \n
+- *A Relation-Oriented Clustering Method for Open Relation Extraction*\n
+Jun Zhao, *Tao Gui*\*, Qi Zhang and Yaqian Zhou.（\* Corresponding author）\n
+EMNLP 2021. \[[https://aclanthology.org/2021.emnlp-main.765.pdf pdf]\] \n
+
+*2020*
+- *Constructing Multiple Tasks for Augmentation: Improving Neural Image Classiﬁcation with K-means Features* \n
+*Tao Gui*, Lizhi Qing, Qi Zhang, Jiacheng Ye, Hang Yan, Zichu Fei and Xuanjing Huang.\n
+AAAI 2020. \[[https://arxiv.org/abs/1911.07518 pdf]\] \[[https://github.com/Howardqlz/Meta-MTL code]\] \n
+
+- *Leveraging Document-Level Label Consistency for Named Entity Recognition* \n
+*Tao Gui*, Jiacheng Ye, Qi Zhang, Yaqian Zhou, Yeyun Gong, Xuanjing Huang. \n
+IJCAI 2020. \[[https://www.ijcai.org/proceedings/2020/0550.pdf pdf]\] \[[https://github.com/jiacheng-ye/DocL-NER code]\] \n
+
+- *Uncertainty-Aware Label Refinement for Sequence Labeling* \n
+*Tao Gui*, Jiacheng Ye, Qi Zhang, Zhengyan Li, Zichu Fei, Yeyun Gong and Xuanjing Huang. \n
+EMNLP 2020. \[[https://aclanthology.org/2020.emnlp-main.181.pdf pdf]\] \[[https://github.com/jiacheng-ye/UANet code]\] \n
+
+*2019*
+- *Cooperative Multimodal Approach to Depression Detection in Twitter* \n
+*Tao Gui*, Liang Zhu, Qi Zhang, Minlong Peng, Xu Zhou, Keyu Ding, Zhigang Chen.\n
+AAAI-19. \[[https://ojs.aaai.org//index.php/AAAI/article/view/3775 pdf]\] \[[http://qizhang.info/paper/code/DepressionMultiModal.zip code]\] \[[https://drive.google.com/open?id=11ye00sHFY5re2NOBRKreg-tVbDNrc7Xd data]\] \n
+
+- *Long Short-Term Memory with Dynamic Skip Connections*\n
+*Tao Gui*, Qi Zhang, Lujun Zhao, Yaosong Lin, Minlong Peng, Jingjing Gong, Xuanjing Huang. \n
+AAAI-19. \[[https://arxiv.org/pdf/1811.03873.pdf pdf]\] \[[https://github.com/guitaowufeng/DynamicLSTM code]\]
+
+- *Mention Recommendation in Twitter with Cooperative Multi-Agent Reinforcement Learning*\n
+*Tao Gui*, Peng Liu, Qi Zhang, Liang Zhu, Minlong Peng, Yunhua Zhou and Xuanjing Huang. \n
+SIGIR 2019. \[[https://dl.acm.org/doi/10.1145/3331184.3331237 pdf]\] \[[https://github.com/mritma/CROMA code]\]\n
+
+- *CNN-Based Chinese NER with Lexicon Rethinking* \n
+*Tao Gui*, Ruotian Ma, Qi Zhang, Lujun Zhao, Yu-Gang Jiang, Xuanjing Huang.\n
+IJCAI 2019. \[[https://www.ijcai.org/proceedings/2019/0692.pdf pdf]\] \[[https://github.com/rtmaww/LR-CNN code]\]\n
+
+- *A Lexicon-Based Graph Neural Network for Chinese NER* \n
+*Tao Gui*, Yicheng Zou, Qi Zhang, Minlong Peng, Jinlan Fu, Zhongyu Wei and Xuanjing Huang.\n
+EMNLP 2019. \[[https://aclanthology.org/D19-1096.pdf pdf]\] \[[https://github.com/RowitZou/LGN code]\] \n
+
+- *Trainable Undersampling for Class-Imbalance Learning*\n
+Minlong Peng, Qi Zhang, Xiaoyu Xing, *Tao Gui*, Xuanjing Huang, Yu-Gang Jiang, Keyu Ding, Zhigang Chen.\n
+AAAI-19. \[[https://ojs.aaai.org/index.php/AAAI/article/view/4396 pdf]\] \n
+
+- *Adaptive Multi-Attention Network Incorporating Answer Information for Duplicate Question Detection* \n
+Di Liang, Fubao Zhang, Weidong Zhang, Qi Zhang, Jinlan Fu, Minlong Peng, *Tao Gui* and Xuanjing Huang.\n
+SIGIR 2019. \[[https://dl.acm.org/doi/10.1145/3331184.3331228 pdf]\]\n
+
+- *Learning Task-Specific Representation for Novel Words in Sequence Labeling*\n
+Minlong Peng, Qi Zhang, Xiaoyu Xing, *Tao Gui*, Jinlan Fu, Xuanjing Huang. \n
+IJCAI 2019. \[[https://www.ijcai.org/proceedings/2019/0715.pdf pdf]\]\n
+
+- *Switch-LSTMs for Multi-Criteria Chinese Word Segmentation*\n
+Jingjing Gong, Xinchi Chen, *Tao Gui*, Xipeng Qiu.\n
+AAAI-19. \[[https://arxiv.org/pdf/1812.08033.pdf pdf]\]\n
+
+*2018*
+- *Transferring from Formal Newswire Domain with Hypernet for Twitter POS Tagging*\n
+*Tao Gui*, Qi Zhang, Jingjing Gong, Minlong Peng, Di Liang, Keyu Ding and Xuanjing Huang.\n
+EMNLP 2018. \[[https://aclanthology.org/D18-1275.pdf pdf]\] \[[https://github.com/guitaowufeng/DCNN-for-Twitter-POS-tagging code]\]\n
+
+- *A Lexicon-Based Supervised Attention Model for Neural Sentiment Analysis*\n
+Yicheng Zou, *Tao Gui*, Qi Zhang, Xuanjing Huang\n 
+COLING 2018, {{<span style="color:red">}}*/Area Chair Favorite Award/*{{</span>}}. \[[https://aclanthology.org/C18-1074.pdf pdf]\] \n
+
+*2017*
+- *Part-of-Speech Tagging for Twitter with Adversarial Neural Networks* \n
+*Tao Gui*, Qi Zhang, Haoran Huang, Minlong Peng, Xuanjing Huang.\n
+EMNLP 2017. \[[https://aclanthology.org/D17-1256.pdf pdf]\] \[[https://github.com/guitaowufeng/TPANN code]\]\n

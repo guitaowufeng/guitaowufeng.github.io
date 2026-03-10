@@ -1,0 +1,107 @@
+# jemdoc:menu{MENU}{index.html}, nofooter 
+\n
+== {{<span style="color:black;font-size:24pt;font-family:Songti SC">}}*Tao Gui (桂 韬)*{{</span>}}\n
+
+~~~
+{}{img_left}{photos/bio.jpg}{alt text}{200}{270}
+\n
+Pre-tenured Associate Professor\n 
+[https://imoll.fudan.edu.cn Institute of Modern Languages and Linguistics]\n
+[https://nlp.fudan.edu.cn NLP Group, School of Computer Science]\n
+[https://www.fudan.edu.cn/en/ Fudan University]\n
+
+*Contact*: Shanghai, China, 200438
+- Room 242, Environmental Science Building, 220 Handan Rd\n
+- Room A3011, Intersection Building No.2, 2005 Songhu Rd\n
+           
+*Email*: /tgui/ \[@\] fudan\[DOT\] edu \[DOT\] cn
+
+\[[https://guitaowufeng.github.io/photos/cv.pdf CV]\] \[[https://github.com/guitaowufeng Github]\] 
+\[[https://scholar.google.com.hk/citations?user=BrOLQdwAAAAJ&hl=zh-CN Google Scholar]\]
+~~~
+
+== About me
+Dr. Gui is a pre-tenured associate professor in Institute of Modern Languages and Linguistics. At Fudan, he is the vice-director of NLP-Linguistic Intelligence lab (NLP-LI lab of Fudan NLP, the director is [http://qizhang.info/index.html Prof. Qi Zhang]), and member of a larger NLP group directed by [https://nlp.fudan.edu.cn/28702/list.htm Prof. Xuanjing Huang]. He was also very fortunate to work in this laboratory for five years and get the PhD in 2021. Before entering Fudan University, he obtained a bachelor's degree from the National University of Defense Technology, and served in the army for several years, where he developed a perseverance and team spirit.
+
+#His research focuses on natural language processing, machine learning, with special emphasis on multi-modality information understanding and generation cross vision and language, argumentation mining and some cross-disciplinary topics. He has published more than 60 papers on top-tier conferences in related research fields, including ACL, EMNLP, ICML, ICLR, IJCAI, AAAI and so on. 
+
+
+#== Annoucement
+
+#I am currently looking for some self-motivated students to work with me. Besides, we have postdoc positions in Fudan NLP group. If you are interested in my research topics, please drop me an email with your CV. 
+
+== Research
+My research interests include 
+- Natural Language Processing
+- Large Language Models
+- LLM Powered Learning
+
+#[research.html Find out more].
+
+== Selected Publications 
+~~~
+{}{img_left}{photos/MossRLHF.jpg}{alt text}{60}{60}
+*Secrets of RLHF in Large Language Models Part I: PPO*\n
+\[[https://arxiv.org/abs/2307.04964 Arxiv version]\], \[[https://github.com/OpenLMLab/MOSS-RLHF Github]\]
+~~~
+\n
+~~~
+{}{img_left}{photos/textflint.png}{alt text}{60}{60}
+*TextFlint: Unified Multilingual Robustness Evaluation Toolkit for Natural Language Processing*\n
+\[[https://arxiv.org/pdf/2103.11441.pdf Arxiv version]\], \[[aclpage ACL demo version]\], \[[https://www.textflint.io/textflint TextFlint platform]\], \[[https://github.com/textflint/textflint Github]\]
+~~~
+
+- *RE-Matching: A Fine-Grained Semantic Matching Method for Zero-Shot Relation Extraction*\n
+Jun Zhao, WenYu Zhan, *Tao Gui*, Qi Zhang, Jin Ma and Ying Shan \n
+EMNLP 2022 Findings. \n
+
+- *TextFusion: Privacy-Preserving Pre-trained Model Inference via Token Fusion*\n
+Xin Zhou, Jinzhu Lu, *Tao Gui*, Ruotian Ma, Zichu Fei, Yuran Wang, Yong Ding, Yibo Cheung, Qi Zhang and Xuanjing Huang \n
+EMNLP 2022. \n
+
+- *Efficient Adversarial Training with Robust Early-Bird Tickets*\n
+zhiheng xi, rui zheng, *Tao Gui*, Qi Zhang and Xuanjing Huang \n
+EMNLP 2022. \n
+
+- *Cross-Linguistic Syntactic Difference in Multilingual BERT: How Good is It and How Does It Affect Transfer?*\n
+Ningyu Xu, *Tao Gui*, Ruotian Ma, Qi Zhang, Jingting Ye, Menghan Zhang and Xuanjing Huang \n
+EMNLP 2022. \n
+
+- *Making Parameter-efficient Tuning More Efficient: A Unified Framework for Classification Tasks*\n
+Xin Zhou, Ruotian Ma, Yicheng Zou, Xuanting Chen, *Tao Gui*, Qi Zhang, Xuanjing Huang, Rui Xie and Wei Wu \n
+COLING 2022. \n
+
+- *Template-free Prompt Tuning for Few-shot NER*\n
+Ruotian Ma, Xin Zhou, *Tao Gui*, Yiding Tan, Linyang Li, Qi Zhang, Xuanjing Huang \n
+NAACL 2022. \n
+
+- *Searching for Optimal Subword Tokenization in Cross-domain NER*\n
+Ruotian Ma, Yiding Tan, Xin Zhou, Xuanting Chen, *Tao Gui*, Di Liang, Sirui Wang, Wei Wu \n
+IJCAI 2022, {{<span style="color:red">}}/Top 3.75\%/{{</span>}}. \n
+- *Flooding-X: Improving BERT's Resistance to Adversarial Attacks via Loss-Restricted Fine-Tuning*\n
+Qin Liu, Rui Zheng, Bao Rong, Jingyi Liu, ZhiHua Liu, Zhanzhan Cheng, Liang Qiao, *Tao Gui*, Qi Zhang, Xuanjing Huang \n
+ACL 2022.  \n
+- *Robust Lottery Tickets for Pre-trained Language Models*\n
+Rui Zheng, Rong Bao, Yuhao Zhou, Di Liang, Sirui Wang, Wei Wu, *Tao Gui*, Qi Zhang, Xuanjing Huang \n
+ACL 2022.  \n
+
+- *ONE2SET: Generating Diverse Keyphrases as a Set*\n
+Jiacheng Ye, *Tao Gui*\*, Yichao Luo, Yige Xu, and Qi Zhang. （\* Corresponding author）\n
+ACL 2021. \[[https://arxiv.org/abs/2105.11134 pdf]\] \[[https://github.com/jiacheng-ye/kg_one2set code]\] 
+
+- *SENT: Sentence-level Distant Relation Extraction via Negative Training*\n
+Ruotian Ma, *Tao Gui*\*, Linyang Li, Qi Zhang, Xuanjing Huang and Yaqian Zhou. （\* Corresponding author）\n
+ACL 2021. \[[https://arxiv.org/abs/2106.11566?context=cs pdf]\] \[[https://github.com/rtmaww/SENT code]\] 
+
+- *A Unified Generative Framework for Various NER Tasks*\n
+Hang Yan, *Tao Gui*, Junqi Dai, Qipeng Guo, Zheng Zhang and Xipeng Qiu. \n 
+ACL 2021. \[[https://arxiv.org/abs/2106.01223 pdf]\] \[[https://github.com/yhcc/BARTNER code]\] \n
+
+
+
+
+== Visitors
+~~~
+{}{raw}
+<script type='text/javascript' id='clustrmaps' src='//cdn.clustrmaps.com/map_v2.js?cl=ffffff&w=300&t=n&d=p1tpW45OXSpLmu8rgR26NcVL13amxMQ4bBj_P1HCqmQ'></script>
+~~~

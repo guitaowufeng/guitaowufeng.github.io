@@ -1,0 +1,494 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tao Gui (桂韬)</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500&family=Noto+Serif+SC:wght@600&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --bg: #fafaf9;
+            --bg2: #f5f5f4;
+            --card: #ffffff;
+            --border: #e7e5e4;
+            --text: #1c1917;
+            --text2: #44403c;
+            --text3: #78716c;
+            --accent: #2563eb;
+            --accent2: #1d4ed8;
+            --tag-agent: #dbeafe;
+            --tag-agent-t: #1e40af;
+            --tag-align: #fce7f3;
+            --tag-align-t: #9d174d;
+            --tag-multi: #d1fae5;
+            --tag-multi-t: #065f46;
+        }
+
+        @media (prefers-color-scheme: dark) {
+            :root {
+                --bg: #0c0a09;
+                --bg2: #1c1917;
+                --card: #1c1917;
+                --border: #292524;
+                --text: #fafaf9;
+                --text2: #d6d3d1;
+                --text3: #a8a29e;
+                --accent: #60a5fa;
+                --accent2: #93c5fd;
+                --tag-agent: rgba(37,99,235,0.15);
+                --tag-agent-t: #93c5fd;
+                --tag-align: rgba(236,72,153,0.15);
+                --tag-align-t: #f9a8d4;
+                --tag-multi: rgba(16,185,129,0.15);
+                --tag-multi-t: #6ee7b7;
+            }
+        }
+
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+
+        body {
+            font-family: 'Space Grotesk', system-ui, sans-serif;
+            background: var(--bg);
+            color: var(--text);
+            line-height: 1.7;
+            -webkit-font-smoothing: antialiased;
+        }
+
+        .wrap {
+            max-width: 720px;
+            margin: 0 auto;
+            padding: 0 28px;
+        }
+
+        /* ---- HERO ---- */
+        header {
+            padding: 80px 0 48px;
+        }
+        .hero-row {
+            display: flex;
+            gap: 36px;
+            align-items: flex-start;
+        }
+        .avatar {
+            flex-shrink: 0;
+            width: 140px;
+        }
+        .avatar img {
+            width: 140px;
+            height: 186px;
+            object-fit: cover;
+            object-position: center 15%;
+            border-radius: 12px;
+            display: block;
+        }
+        .hero-text h1 {
+            font-size: 28px;
+            font-weight: 700;
+            letter-spacing: -0.04em;
+            line-height: 1.2;
+        }
+        .hero-text h1 .cn {
+            font-family: 'Noto Serif SC', serif;
+            font-weight: 600;
+            font-size: 20px;
+            color: var(--text3);
+            margin-left: 6px;
+        }
+        .hero-text .role {
+            color: var(--text3);
+            font-size: 16px;
+            margin-top: 6px;
+            line-height: 1.6;
+        }
+        .hero-text .role a {
+            color: var(--text2);
+            text-decoration-color: var(--border);
+            text-underline-offset: 3px;
+        }
+        .hero-text .role a:hover { color: var(--accent); text-decoration-color: var(--accent); }
+        .hero-text .email {
+            margin-top: 10px;
+            font-size: 15px;
+            color: var(--text3);
+        }
+        .hero-text .email a { color: var(--accent); text-decoration: none; }
+        .links-row {
+            margin-top: 14px;
+            display: flex;
+            gap: 16px;
+        }
+        .links-row a {
+            font-size: 13px;
+            font-weight: 500;
+            color: var(--text3);
+            text-decoration: none;
+            transition: color 0.15s;
+        }
+        .links-row a:hover { color: var(--accent); }
+        .links-row a::before { margin-right: 4px; }
+
+        /* ---- ABOUT ---- */
+        .about {
+            padding-bottom: 40px;
+            border-bottom: 1px solid var(--border);
+            margin-bottom: 40px;
+        }
+        .about p {
+            font-size: 16px;
+            color: var(--text2);
+            line-height: 1.8;
+        }
+        .about p a { color: var(--accent); text-decoration: none; }
+        .about p strong { color: var(--text); font-weight: 600; }
+        .research-tags {
+            display: flex;
+            gap: 8px;
+            margin-top: 14px;
+            flex-wrap: wrap;
+        }
+        .rtag {
+            font-size: 12px;
+            font-weight: 500;
+            padding: 4px 12px;
+            border-radius: 100px;
+        }
+        .rtag-a { background: var(--tag-agent); color: var(--tag-agent-t); }
+        .rtag-b { background: var(--tag-align); color: var(--tag-align-t); }
+        .rtag-c { background: var(--tag-multi); color: var(--tag-multi-t); }
+
+        /* ---- SECTION ---- */
+        .sec { margin-bottom: 48px; }
+        .sec-title {
+            font-size: 20px;
+            font-weight: 700;
+            letter-spacing: -0.02em;
+            color: var(--text);
+            margin-bottom: 28px;
+            padding-bottom: 10px;
+            border-bottom: 3px solid var(--accent);
+            display: inline-block;
+        }
+
+        /* ---- PAPER ---- */
+        .paper {
+            margin-bottom: 24px;
+            padding-bottom: 24px;
+            border-bottom: 1px solid var(--border);
+        }
+        .paper:last-child { border-bottom: none; }
+        .paper-meta {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            margin-bottom: 6px;
+        }
+        .venue {
+            font-family: 'IBM Plex Mono', monospace;
+            font-size: 11px;
+            font-weight: 500;
+            padding: 2px 8px;
+            border-radius: 4px;
+            background: var(--bg2);
+            color: var(--text3);
+        }
+        .paper-title {
+            font-size: 17px;
+            font-weight: 600;
+            line-height: 1.4;
+            letter-spacing: -0.01em;
+            margin-bottom: 6px;
+        }
+        .paper-title a {
+            color: var(--text);
+            text-decoration: none;
+        }
+        .paper-title a:hover { color: var(--accent); }
+        .paper-desc {
+            font-size: 15px;
+            color: var(--text3);
+            line-height: 1.7;
+            margin-bottom: 8px;
+        }
+        .paper-note {
+            font-size: 13px;
+            color: var(--accent);
+            margin-bottom: 6px;
+        }
+        .paper-links {
+            display: flex;
+            gap: 12px;
+        }
+        .paper-links a {
+            font-family: 'IBM Plex Mono', monospace;
+            font-size: 13px;
+            color: var(--text3);
+            text-decoration: none;
+            transition: color 0.15s;
+        }
+        .paper-links a:hover { color: var(--accent); }
+        .paper-links a::before { content: '↗ '; }
+
+        /* ---- CONTACT ---- */
+        .contact-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 12px;
+        }
+        .c-item {
+            font-size: 14px;
+            color: var(--text2);
+        }
+        .c-item .c-label {
+            font-size: 11px;
+            font-weight: 600;
+            text-transform: uppercase;
+            letter-spacing: 0.08em;
+            color: var(--text3);
+            margin-bottom: 2px;
+        }
+        .c-item a { color: var(--accent); text-decoration: none; }
+
+        footer {
+            padding: 32px 0;
+            font-size: 12px;
+            color: var(--text3);
+            text-align: center;
+            border-top: 1px solid var(--border);
+            margin-top: 24px;
+        }
+        .visitors { text-align: center; margin: 16px 0; }
+
+        @media (max-width: 600px) {
+            header { padding-top: 48px; }
+            .hero-row { flex-direction: column; gap: 20px; }
+            .avatar { width: 110px; }
+            .avatar img { width: 110px; height: 146px; }
+            .contact-grid { grid-template-columns: 1fr; }
+        }
+    </style>
+</head>
+<body>
+
+<div class="wrap">
+
+<header>
+    <div class="hero-row">
+        <div class="avatar">
+            <img src="photos/new_bio.jpg" alt="Tao Gui">
+        </div>
+        <div class="hero-text">
+            <h1>Tao Gui<span class="cn">桂韬</span></h1>
+            <div class="role">
+                Associate Professor<br>
+                <a href="https://nlp.fudan.edu.cn">NLP Group</a>, <a href="https://www.fudan.edu.cn/en/">Fudan University</a>
+            </div>
+            <div class="email">Email: <a href="mailto:tgui@fudan.edu.cn">tgui@fudan.edu.cn</a></div>
+            <div class="links-row">
+                <a href="https://scholar.google.com.hk/citations?user=BrOLQdwAAAAJ&hl=zh-CN">Google Scholar</a>
+            </div>
+        </div>
+    </div>
+</header>
+
+<div class="about">
+    <p>
+        I work at the intersection of <strong>complex reasoning</strong> and <strong>AI agents</strong> for large language models.
+        My group builds systems that can reason, plan, self-evolve, and act in diverse environments — and we study how to align them with human values through reinforcement learning.
+    </p>
+    <p style="margin-top: 10px;">
+        I co-lead the NLP-LI lab at Fudan with <a href="http://qizhang.info/index.html">Qi Zhang</a>, within the group of <a href="https://nlp.fudan.edu.cn/28702/list.htm">Xuanjing Huang</a>. Ph.D. from Fudan (2021), B.S. from NUDT.
+    </p>
+    <div class="research-tags">
+        <span class="rtag rtag-a">LLM Reasoning</span>
+        <span class="rtag rtag-a">AI Agents</span>
+        <span class="rtag rtag-b">RLHF & Alignment</span>
+        <span class="rtag rtag-c">Multimodal LLM</span>
+    </div>
+</div>
+
+<!-- ======== AGENTS ======== -->
+<div class="sec">
+    <div class="sec-title">Agents & Environments</div>
+
+    <div class="paper">
+        <div class="paper-meta"><span class="venue">Preprint 2026</span></div>
+        <div class="paper-title"><a href="https://arxiv.org/abs/2602.03587">CL-bench: A Benchmark for Context Learning</a></div>
+        <div class="paper-desc">A systematic benchmark evaluating how well LLMs learn from contextual demonstrations, covering diverse task types and context configurations.</div>
+        <div class="paper-links"><a href="https://arxiv.org/abs/2602.03587">paper</a> <a href="https://www.clbench.com/">benchmark</a> <a href="https://hy.tencent.com/research/100025?langVersion=en">blog</a> <a href="https://github.com/Tencent-Hunyuan/CL-bench">code</a></div>
+    </div>
+
+    <div class="paper">
+        <div class="paper-meta"><span class="venue">ICLR 2026</span></div>
+        <div class="paper-title"><a href="https://arxiv.org/abs/2501.00539">AgentGym-RL: Training LLM Agents for Long-Horizon Decision Making through Multi-Turn Reinforcement Learning</a></div>
+        <div class="paper-desc">An open-source RL framework for training agents on long-horizon tasks via multi-turn interactions, extending the AgentGym ecosystem with scalable reinforcement learning.</div>
+        <div class="paper-links"><a href="https://arxiv.org/abs/2501.00539">paper</a> <a href="https://github.com/AgentGym/AgentGym">code</a></div>
+    </div>
+
+    <div class="paper">
+        <div class="paper-meta"><span class="venue">Preprint 2025</span></div>
+        <div class="paper-title"><a href="https://arxiv.org/abs/2512.13564">Memory in the Age of AI Agents</a></div>
+        <div class="paper-desc">A comprehensive survey on memory for foundation model agents — proposing a unified taxonomy of short-term, long-term, and parametric memory, and charting the path toward persistent, capable agents.</div>
+        <div class="paper-links"><a href="https://arxiv.org/abs/2512.13564">paper</a> <a href="https://zhuanlan.zhihu.com/p/1986744148083091293">blog</a></div>
+    </div>
+
+    <div class="paper">
+        <div class="paper-meta"><span class="venue">Preprint 2025</span></div>
+        <div class="paper-title"><a href="https://arxiv.org/abs/2512.06879">WisPaper: Your AI Scholar Search Engine</a></div>
+        <div class="paper-desc">An AI-powered academic search engine combining intelligent retrieval, paper understanding, and multi-document synthesis to help researchers navigate the literature.</div>
+        <div class="paper-links"><a href="https://arxiv.org/abs/2512.06879">paper</a> <a href="https://www.wispaper.ai/en">platform</a></div>
+    </div>
+
+    <div class="paper">
+        <div class="paper-meta"><span class="venue">Preprint 2025</span></div>
+        <div class="paper-title"><a href="https://arxiv.org/abs/2512.04987">Nex-N1: Agentic Models Trained via a Unified Ecosystem for Large-Scale Environment Construction</a></div>
+        <div class="paper-desc">A unified ecosystem for constructing large-scale training environments, enabling systematic agent capability building through scalable environment generation and curriculum design.</div>
+        <div class="paper-links"><a href="https://arxiv.org/abs/2512.04987">paper</a> <a href="https://github.com/nex-agi/Nex-N1">code</a></div>
+    </div>
+
+    <div class="paper">
+        <div class="paper-meta"><span class="venue">Preprint 2025</span></div>
+        <div class="paper-title"><a href="https://arxiv.org/abs/2601.01576">OpenNovelty: An LLM-powered Agentic System for Verifiable Scholarly Novelty Assessment</a></div>
+        <div class="paper-desc">Automatically assesses the novelty of scientific submissions via retrieval-augmented verification, producing traceable, evidence-backed judgments for peer review.</div>
+        <div class="paper-links"><a href="https://arxiv.org/abs/2601.01576">paper</a> <a href="https://github.com/january-blue/OpenNovelty">code</a></div>
+    </div>
+
+    <div class="paper">
+        <div class="paper-meta"><span class="venue">ACL 2025</span></div>
+        <div class="paper-title"><a href="https://arxiv.org/abs/2406.04151">AgentGYM: Evolving Large Language Model-based Agents across Diverse Environments</a></div>
+        <div class="paper-desc">A framework for training generally-capable agents across 14 environments and 89 tasks. Agents autonomously explore and evolve without step-by-step supervision, achieving 82.4% average success rate.</div>
+        <div class="paper-note">Praised by Google DeepMind for helping "mitigate unintended consequences in real-world AI deployment"</div>
+        <div class="paper-links"><a href="https://arxiv.org/abs/2406.04151">paper</a> <a href="https://github.com/WooooDyy/AgentGym">code</a> <a href="https://agentgym.github.io/">project</a></div>
+    </div>
+
+    <div class="paper">
+        <div class="paper-meta"><span class="venue">Preprint 2023</span></div>
+        <div class="paper-title"><a href="https://arxiv.org/abs/2309.07864">The Rise and Potential of Large Language Model Based Agents: A Survey</a></div>
+        <div class="paper-desc">One of the earliest and most comprehensive surveys on LLM-based agents — covering perception, reasoning, planning, and action — widely cited as a foundational reference in the agent research community.</div>
+        <div class="paper-links"><a href="https://arxiv.org/abs/2309.07864">paper</a> <a href="https://github.com/WooooDyy/LLM-Agent-Paper-List">paper list</a></div>
+    </div>
+</div>
+
+<!-- ======== ALIGNMENT ======== -->
+<div class="sec">
+    <div class="sec-title">Alignment & Reinforcement Learning</div>
+
+    <div class="paper">
+        <div class="paper-meta"><span class="venue">Preprint 2025</span></div>
+        <div class="paper-title"><a href="https://arxiv.org/abs/2507.05197">Pre-Trained Policy Discriminators are General Reward Models</a></div>
+        <div class="paper-desc">Reveals that models trained to distinguish reference from target policies can serve as general-purpose reward models — a new paradigm for scalable RLHF without explicit reward annotation.</div>
+        <div class="paper-links"><a href="https://arxiv.org/abs/2507.05197">paper</a> <a href="https://github.com/InternLM/POLAR">code</a></div>
+    </div>
+
+    <div class="paper">
+        <div class="paper-meta"><span class="venue">Preprint 2025</span></div>
+        <div class="paper-title"><a href="https://arxiv.org/abs/2510.18927">BAPO: Stabilizing Off-Policy Reinforcement Learning for LLMs via Balanced Policy Optimization with Adaptive Clipping</a></div>
+        <div class="paper-desc">Balances positive and negative token contributions with adaptive clipping bounds to stabilize off-policy RL training for language models, maintaining entropy while improving learning efficiency.</div>
+        <div class="paper-links"><a href="https://arxiv.org/abs/2510.18927">paper</a> <a href="https://github.com/WooooDyy/BAPO">code</a></div>
+    </div>
+
+    <div class="paper">
+        <div class="paper-meta"><span class="venue">Preprint 2024</span></div>
+        <div class="paper-title"><a href="https://arxiv.org/abs/2312.09979">LoRAMoE: Alleviate World Knowledge Forgetting in Large Language Models via MoE-Style Plugin</a></div>
+        <div class="paper-desc">A mixture-of-experts framework using multiple LoRA adapters with a learned router to preserve world knowledge during instruction tuning — keeping broad capabilities while gaining task-specific skills.</div>
+        <div class="paper-links"><a href="https://arxiv.org/abs/2312.09979">paper</a> <a href="https://github.com/Ablustrund/LoRAMoE">code</a></div>
+    </div>
+
+    <div class="paper">
+        <div class="paper-meta"><span class="venue">Preprint 2024</span></div>
+        <div class="paper-title"><a href="https://arxiv.org/abs/2401.06080">Secrets of RLHF in Large Language Models Part II: Reward Modeling</a></div>
+        <div class="paper-desc">Tackles two fundamental problems in reward modeling: handling noisy human preference data and improving training robustness. Proposes methods to detect and correct label noise in preference annotations.</div>
+        <div class="paper-links"><a href="https://arxiv.org/abs/2401.06080">paper</a> <a href="https://github.com/OpenLMLab/MOSS-RLHF">code</a></div>
+    </div>
+
+    <div class="paper">
+        <div class="paper-meta"><span class="venue">Preprint 2023</span></div>
+        <div class="paper-title"><a href="https://arxiv.org/abs/2307.04964">Secrets of RLHF in Large Language Models Part I: PPO</a></div>
+        <div class="paper-desc">A pioneering empirical study of PPO instability in RLHF. Introduces PPO-max with token-level KL penalty for consistent alignment training. Open-sourced as MOSS-RLHF.</div>
+        <div class="paper-links"><a href="https://arxiv.org/abs/2307.04964">paper</a> <a href="https://github.com/OpenLMLab/MOSS-RLHF">code</a></div>
+    </div>
+</div>
+
+<!-- ======== MULTIMODAL ======== -->
+<div class="sec">
+    <div class="sec-title">Multimodal & Systems</div>
+
+    <div class="paper">
+        <div class="paper-meta"><span class="venue">Preprint 2026</span></div>
+        <div class="paper-title"><a href="https://arxiv.org/abs/2601.12799">FRoM-W1: Towards General Humanoid Whole-Body Control with Language Instructions</a></div>
+        <div class="paper-desc">Enables humanoid robots to execute complex whole-body movements from natural language commands, bridging language understanding and motor control.</div>
+        <div class="paper-links"><a href="https://arxiv.org/abs/2601.12799">paper</a> <a href="https://github.com/OpenMOSS/FRoM-W1">code</a></div>
+    </div>
+
+    <div class="paper">
+        <div class="paper-meta"><span class="venue">AAAI 2026</span></div>
+        <div class="paper-title"><a href="https://arxiv.org/abs/2601.11464">MHA2MLA-VLM: Enabling DeepSeek's Multi-Head Latent Attention in Any Transformer-Based LLMs</a></div>
+        <div class="paper-desc">Converts standard multi-head attention into DeepSeek's economical multi-head latent attention for any transformer, dramatically reducing KV-cache and inference cost without retraining.</div>
+        <div class="paper-links"><a href="https://arxiv.org/abs/2601.11464">paper</a> <a href="https://github.com/JT-Ushio/MHA2MLA">code</a></div>
+    </div>
+
+    <div class="paper">
+        <div class="paper-meta"><span class="venue">Preprint 2025</span></div>
+        <div class="paper-title"><a href="https://arxiv.org/abs/2601.03973">Muse: Towards Reproducible Long-Form Song Generation with Fine-Grained Style Control</a></div>
+        <div class="paper-desc">A reproducible framework for generating full-length songs with fine-grained control over style, structure, and instrumentation — supporting long-form coherent music creation.</div>
+        <div class="paper-links"><a href="https://arxiv.org/abs/2601.03973">paper</a> <a href="https://github.com/yuhui1038/Muse">code</a></div>
+    </div>
+
+    <div class="paper">
+        <div class="paper-meta"><span class="venue">Preprint 2024</span></div>
+        <div class="paper-title"><a href="https://arxiv.org/abs/2410.23074">Multi-Programming Language Sandbox for LLMs</a></div>
+        <div class="paper-desc">An out-of-the-box multi-language sandbox providing unified feedback from compilers and static analysis tools, enabling LLMs to write, execute, and debug code across languages.</div>
+        <div class="paper-links"><a href="https://arxiv.org/abs/2410.23074">paper</a> <a href="https://github.com/Ablustrund/MPLSandbox">code</a></div>
+    </div>
+
+    <div class="paper">
+        <div class="paper-meta"><span class="venue">ACL 2021</span></div>
+        <div class="paper-title"><a href="https://arxiv.org/pdf/2103.11441.pdf">TextFlint: Unified Multilingual Robustness Evaluation Toolkit for NLP</a></div>
+        <div class="paper-desc">A comprehensive toolkit for evaluating model robustness through automated transformations, adversarial attacks, and subpopulation analysis across 13 NLP tasks and multiple languages.</div>
+        <div class="paper-links"><a href="https://arxiv.org/pdf/2103.11441.pdf">paper</a> <a href="https://www.textflint.io/textflint">platform</a> <a href="https://github.com/textflint/textflint">code</a></div>
+    </div>
+</div>
+
+<p style="text-align: center; margin-bottom: 48px;">
+    <a href="https://scholar.google.com.hk/citations?user=BrOLQdwAAAAJ&hl=zh-CN" style="color: var(--accent); text-decoration: none; font-size: 14px; font-weight: 500;">
+        Full publication list on Google Scholar →
+    </a>
+</p>
+
+<!-- ======== CONTACT ======== -->
+<div class="sec">
+    <div class="sec-title">Contact</div>
+    <div class="contact-grid">
+        <div class="c-item">
+            <div class="c-label">Email</div>
+            <a href="mailto:tgui@fudan.edu.cn">tgui@fudan.edu.cn</a>
+        </div>
+        <div class="c-item">
+            <div class="c-label">Office</div>
+            Room 242, Environmental Science Bldg<br>220 Handan Rd, Shanghai
+        </div>
+        <div class="c-item">
+            <div class="c-label">Lab</div>
+            Room A3011, Intersection Bldg No.2<br>2005 Songhu Rd, Shanghai
+        </div>
+        <div class="c-item">
+            <div class="c-label">Links</div>
+            <a href="https://scholar.google.com.hk/citations?user=BrOLQdwAAAAJ&hl=zh-CN">Scholar</a>
+        </div>
+    </div>
+</div>
+
+<div class="visitors">
+    <script type='text/javascript' id='clustrmaps' src='//cdn.clustrmaps.com/map_v2.js?cl=ffffff&w=280&t=n&d=p1tpW45OXSpLmu8rgR26NcVL13amxMQ4bBj_P1HCqmQ'></script>
+</div>
+
+<footer>
+    <span>&copy; 2026 Tao Gui · Fudan University</span>
+    <br>
+    <span style="font-size: 11px; color: var(--text-muted, #a8a29e); margin-top: 6px; display: inline-block;">crafted with a little help from Claude ✨</span>
+</footer>
+
+</div>
+</body>
+</html>
