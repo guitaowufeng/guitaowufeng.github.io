@@ -250,6 +250,54 @@
         }
         .c-item a { color: var(--accent); text-decoration: none; }
 
+        .visitors-sec {
+            margin-bottom: 32px;
+        }
+        .visitors-card {
+            background: var(--card);
+            border: 1px solid var(--border);
+            border-radius: 16px;
+            padding: 20px 18px;
+        }
+        .visitors-stats {
+            display: flex;
+            gap: 12px;
+            flex-wrap: wrap;
+            margin-bottom: 14px;
+        }
+        .visitor-stat {
+            flex: 1 1 180px;
+            min-width: 0;
+            background: var(--bg2);
+            border: 1px solid var(--border);
+            border-radius: 12px;
+            padding: 10px 12px;
+        }
+        .visitor-label {
+            font-family: 'IBM Plex Mono', monospace;
+            font-size: 11px;
+            text-transform: uppercase;
+            letter-spacing: 0.08em;
+            color: var(--text3);
+            margin-bottom: 4px;
+        }
+        .visitor-value {
+            font-size: 20px;
+            font-weight: 700;
+            letter-spacing: -0.02em;
+            color: var(--text);
+        }
+        .visitors-map {
+            display: flex;
+            justify-content: center;
+            overflow: hidden;
+        }
+        .visitors-note {
+            margin-top: 12px;
+            font-size: 12px;
+            color: var(--text3);
+            text-align: center;
+        }
         footer {
             padding: 32px 0;
             font-size: 12px;
@@ -258,7 +306,6 @@
             border-top: 1px solid var(--border);
             margin-top: 24px;
         }
-        .visitors { text-align: center; margin: 16px 0; }
 
         @media (max-width: 600px) {
             header { padding-top: 48px; }
@@ -266,6 +313,8 @@
             .avatar { width: 110px; }
             .avatar img { width: 110px; height: 146px; }
             .contact-grid { grid-template-columns: 1fr; }
+            .visitors-card { padding: 16px 14px; }
+            .visitor-value { font-size: 18px; }
         }
     </style>
 </head>
@@ -478,8 +527,24 @@
     </div>
 </div>
 
-<div class="visitors">
-    <script type='text/javascript' id='clustrmaps' src='//cdn.clustrmaps.com/map_v2.js?cl=ffffff&w=280&t=n&d=p1tpW45OXSpLmu8rgR26NcVL13amxMQ4bBj_P1HCqmQ'></script>
+<div class="sec visitors-sec">
+    <div class="sec-title">Visitors</div>
+    <div class="visitors-card">
+        <div class="visitors-stats">
+            <div class="visitor-stat">
+                <div class="visitor-label">Page Views</div>
+                <div class="visitor-value"><span id="busuanzi_value_site_pv">--</span></div>
+            </div>
+            <div class="visitor-stat">
+                <div class="visitor-label">Unique Visitors</div>
+                <div class="visitor-value"><span id="busuanzi_value_site_uv">--</span></div>
+            </div>
+        </div>
+        <div class="visitors-map">
+            <script type='text/javascript' id='clustrmaps' src='//cdn.clustrmaps.com/map_v2.js?cl=ffffff&w=280&t=n&d=p1tpW45OXSpLmu8rgR26NcVL13amxMQ4bBj_P1HCqmQ'></script>
+        </div>
+        <div class="visitors-note">Live statistics and visitor map are provided by third-party counters.</div>
+    </div>
 </div>
 
 <footer>
@@ -489,5 +554,6 @@
 </footer>
 
 </div>
+<script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
 </body>
 </html>
